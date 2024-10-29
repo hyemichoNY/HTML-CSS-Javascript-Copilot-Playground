@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
+    text-align: left; /* Align list items to the left */
 }
 
 header {
@@ -44,14 +45,21 @@ main {
 }
 
 #recipe h2 {
-    color: #d25706;
+    color: #461c00;
+    text-align: center; /* Align list items to the left */
     
 }
-
+#recipe h3 {
+    color: #461c00;
+    text-align: left; /* Align list items to the left */
+    
+    
+}
 #recipe ul, #recipe ol {
     margin: 0;
     padding: 0 0 0 30px;
     font-weight: light; /* Make the h2 elements bold */
+    text-align: left; /* Align list items to the left */
 }
 
 footer {
